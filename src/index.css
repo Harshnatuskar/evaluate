@@ -1,0 +1,89 @@
+*{
+    color: white; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.app{
+    background-color: rgb(87, 87, 87);
+    display: flex;
+}
+
+.side-bar{
+    background-color: black;
+    height: 100vh;
+    width: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    border: solid 0.5px rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+ 
+.history{
+    padding: 10px;
+    margin: 10px;
+    height: 100%;
+}
+
+.history li{
+    list-style-type: none;
+    padding: 15px 0;
+}
+
+.bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-holder{
+    position: relative;
+    width: 100%;
+    max-width: 650px;  
+}
+
+input{
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 12px 15px;
+    border-radius: 5px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+input:focus{
+    outline:none;
+}
+
+#submit{
+    position: absolute;
+    bottom: 30px; 
+    right: 0;
+    cursor: pointer;
+    color: black;
+}
